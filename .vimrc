@@ -32,6 +32,18 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'Valloric/YouCompleteMe'
+let g:ycm_autoclose_preview_window_after_completion=1
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+let g:ycm_server_python_interpreter = '/usr/bin/python3'
+Plugin 'tmhedberg/SimpylFold'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+
+"Plugin 'zefei/vim-wintabs'
+"Plugin 'vim-airline/vim-airline'
+Plugin 'ap/vim-buftabline'
+"Plugin 'bling/vim-bufferline'
+"Bundle 'Valloric/YouCompleteMe'
 
 
 call vundle#end()            " required
@@ -43,7 +55,6 @@ set foldlevel=99
 " Enable folding with the spacebar
 nnoremap <space> za
 
-"Plugin 'tmhedberg/SimpylFold'
 "let g:SimpylFold_docstring_preview=1
 
 set tabstop=4
@@ -58,8 +69,8 @@ set autoindent
 set encoding=utf-8
 
 "Bundle 'Valloric/YouCompleteMe'
-let g:ycm_autoclose_preview_window_after_completion=1
-map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+"let g:ycm_autoclose_preview_window_after_completion=1
+"map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 "Plugin 'scrooloose/syntastic'
 "let python_highlight_all=1
@@ -95,3 +106,7 @@ syntax on
 set hlsearch
 "set cindent
 "
+"set hidden
+"nnoremap <C-9> :bnext<CR>
+"nnoremap <C-0> :bprev<CR>
+
