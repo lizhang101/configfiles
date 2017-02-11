@@ -162,7 +162,7 @@
 	rpo = remote prune origin
 	rpu = remote prune upstream
 	#############
-	s = status
+	st = status
 	sb = status -s -b
 	#############
 	sa = stash apply
