@@ -1,0 +1,99 @@
+name: tf1.0
+channels:
+- conda-forge
+- defaults
+dependencies:
+- cairocffi=0.7.2=py35_0
+- cffi=1.7.0=py35_0
+- pycparser=2.17=py35_0
+- cairo=1.14.8=0
+- cycler=0.10.0=py35_0
+- dbus=1.10.10=0
+- decorator=4.0.11=py35_0
+- expat=2.1.0=0
+- fontconfig=2.12.1=3
+- freetype=2.5.5=2
+- glib=2.50.2=1
+- gst-plugins-base=1.8.0=0
+- gstreamer=1.8.0=0
+- h5py=2.6.0=np112py35_2
+- hdf5=1.8.17=1
+- icu=54.1=0
+- jbig=2.1=0
+- jpeg=9b=0
+- libffi=3.2.1=1
+- libgcc=5.2.0=0
+- libgfortran=3.0.0=1
+- libiconv=1.14=0
+- libpng=1.6.27=0
+- libtiff=4.0.6=3
+- libxcb=1.12=1
+- libxml2=2.9.4=0
+- matplotlib=2.0.0=np112py35_0
+- mkl=2017.0.1=0
+- networkx=1.11=py35_0
+- nomkl=1.0=0
+- numexpr=2.6.2=np112py35_nomkl_0
+- numpy=1.12.0=py35_nomkl_0
+- olefile=0.44=py35_0
+- openblas=0.2.19=0
+- openssl=1.0.2k=0
+- pcre=8.39=1
+- pillow=4.0.0=py35_1
+- pip=9.0.1=py35_1
+- pixman=0.34.0=0
+- pyparsing=2.1.4=py35_0
+- pyqt=5.6.0=py35_2
+- python=3.5.2=0
+- python-dateutil=2.6.0=py35_0
+- pytz=2016.10=py35_0
+- pyyaml=3.12=py35_0
+- qt=5.6.2=3
+- readline=6.2=2
+- scikit-image=0.12.3=np112py35_1
+- scikit-learn=0.18.1=np112py35_nomkl_1
+- scipy=0.18.1=np112py35_nomkl_1
+- setuptools=27.2.0=py35_0
+- sip=4.18=py35_0
+- six=1.10.0=py35_0
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- wheel=0.29.0=py35_0
+- xz=5.2.2=1
+- yaml=0.1.6=0
+- zlib=1.2.8=3
+- pip:
+  - appdirs==1.4.0
+  - atari-py==0.0.18
+  - box2d-py==2.3.1
+  - gym (/home/lizhang/Downloads/gym)==0.7.4.dev0
+  - imageio==2.1.2
+  - ipykernel==4.5.2
+  - ipython==5.2.2
+  - ipython-genutils==0.1.0
+  - jupyter-client==4.4.0
+  - jupyter-core==4.3.0
+  - keras==1.2.2
+  - mujoco-py==0.5.7
+  - pachi-py==0.0.21
+  - packaging==16.8
+  - pexpect==4.2.1
+  - pickleshare==0.7.4
+  - prompt-toolkit==1.0.13
+  - protobuf==3.2.0
+  - ptyprocess==0.5.1
+  - pyglet==1.2.4
+  - pygments==2.2.0
+  - pyopengl==3.1.0
+  - python-augeas==0.5.0
+  - pyzmq==16.0.2
+  - requests==2.13.0
+  - simplegeneric==0.8.1
+  - tensorflow-gpu==0.12.1
+  - tflearn==0.2.1
+  - theano==0.8.2
+  - tornado==4.4.2
+  - traitlets==4.3.1
+  - wcwidth==0.1.7
+prefix: /home/lizhang/.conda/envs/tf1.0
+
