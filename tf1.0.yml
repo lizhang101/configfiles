@@ -6,6 +6,7 @@ dependencies:
 - cairocffi=0.7.2=py35_0
 - cffi=1.7.0=py35_0
 - pycparser=2.17=py35_0
+- tqdm=4.11.1=py35_1
 - cairo=1.14.8=0
 - cycler=0.10.0=py35_0
 - dbus=1.10.10=0
@@ -38,6 +39,7 @@ dependencies:
 - olefile=0.44=py35_0
 - openblas=0.2.19=0
 - openssl=1.0.2k=0
+- pandas=0.19.2=np112py35_1
 - pcre=8.39=1
 - pillow=4.0.0=py35_1
 - pip=9.0.1=py35_1
@@ -53,6 +55,7 @@ dependencies:
 - scikit-image=0.12.3=np112py35_1
 - scikit-learn=0.18.1=np112py35_nomkl_1
 - scipy=0.18.1=np112py35_nomkl_1
+- seaborn=0.7.1=py35_0
 - setuptools=27.2.0=py35_0
 - sip=4.18=py35_0
 - six=1.10.0=py35_0

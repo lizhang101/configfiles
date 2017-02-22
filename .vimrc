@@ -104,6 +104,7 @@ syntax on
 
 
 set hlsearch
+set incsearch
 "set cindent
 "
 "set hidden
